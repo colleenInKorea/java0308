@@ -1,13 +1,10 @@
 package Day02;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Ex03 {
     public static void main(String[] args) {
-        System.out.println("아 심심하다.");
+
         Map<String, Object> Information = new HashMap<>();
         Information.put("이름", "이도경");
         Information.put("나이", 25);
@@ -15,8 +12,18 @@ public class Ex03 {
         Information.put("성별", "여성");
         Information.put("주 프로그래밍언어", "자바");
 
-        System.out.println("이도경의 개인정보는 : " + Information.toString() + " 입니다.");
+        Map<String, Object> Information1 = new HashMap<>();
+        Information1.put("이름", "이도희");
+        Information1.put("나이", 24);
+        Information1.put("학교", "경희대학교");
+        Information1.put("성별", "여성");
+        Information1.put("특기", "디자인");
 
+        List<Map<String, Object>> PersonenInformation = new ArrayList<>();
+        PersonenInformation.add(Information);
+        PersonenInformation.add(Information1);
+
+        System.out.println("List Map Insert : " + PersonenInformation.toString());
 
 
     }
