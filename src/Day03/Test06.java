@@ -1,6 +1,5 @@
 package Day03;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test06 {
