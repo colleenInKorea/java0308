@@ -7,7 +7,7 @@ public class Test06 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("원하는 수식을 쓰시오 (숫자와 연산자를 띄어서 써야 합니다.)");
-        String [] mathEx = scan.next().split(" ");
+        String [] mathEx = scan.nextLine().split(" ");
         int number1, number2;
         char operator;
 
@@ -16,7 +16,7 @@ public class Test06 {
         operator = mathEx[1].charAt(0);
         number2 = Integer.parseInt(mathEx[2]);
 
-        switch (operator) {
+       switch (operator) {
             case '+' -> System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
             case '-' -> System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
             case '*' -> System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
