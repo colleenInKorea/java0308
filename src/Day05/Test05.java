@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test05 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
+        //해당 문자열의 대문자 소문자 숫자의 갯수를 세서 출력하시오.
         System.out.println("문자열을 입력하시오");
         String dumiString = scan.nextLine();
 

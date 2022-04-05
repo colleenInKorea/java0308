@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test04 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
+        //합계의 시작값과 끝값 , 그리고 원하는 배수를 설정하여 해당 값사이의 배수를 골라서 그 배수의 합을 구하시오.
         System.out.println("합계의 시작 값을 설정하시오");
         int startNumber = scan.nextInt();
         System.out.println("합계의 끝이 될 값을 설정하시오 (다만 끝이 될 값은 시작값보다 커야 합니다.)");
