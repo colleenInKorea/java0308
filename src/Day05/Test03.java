@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Test03 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-//입력 받을 글자를 scanner로 만들고 변수를 설정해서 입력 받는다.
+
+        //입력 받을 글자를 scanner로 만들고 변수를 설정해서 입력 받는다.
         System.out.println("글자를 입력 하세요");
         String words = scan.nextLine();
 
