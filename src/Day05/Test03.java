@@ -14,7 +14,7 @@ public class Test03 {
         System.out.println("변환된 문자열을 출력합니다. ");
 
         for (int i = words.length()-1; i >= 0; i-- ){
-            System.out.println(words.charAt(i));
+            System.out.print(words.charAt(i));
         }
     }
 }
