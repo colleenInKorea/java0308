@@ -1,4 +1,5 @@
 package midterm;
+import java.util.*;
 
 public class test07 {
     static int diff(char a, char b) {
