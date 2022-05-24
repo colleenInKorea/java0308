@@ -2,8 +2,8 @@ package Day12;
 
 public class Test01 {
     public static void main(String[] args) {
-         Cat nabi = new Cat("나비", 12);
-         Dog tom = new Dog("톰", 8);
+         Cat nabi = new Cat("나비", 12, "고양이");
+         Dog tom = new Dog("톰", 8, "강아지");
 
          Animal[] ourPet = new Animal[2];
          ourPet[0] =nabi;
