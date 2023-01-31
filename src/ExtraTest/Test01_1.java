@@ -9,13 +9,10 @@ public class Test01_1 {
 
         // 잡화점이 갖고 있는 동전의 종류
         int[] changes = {500, 100, 50, 10, 5, 1};
-
         // 거스름돈 동전의 갯수
         int number = 0;
-
         // 물건의 가격을 입력받는다.
         int price = sc.nextInt();
-
         // 주어야 할 거스름돈을 계산한다.
         int change = 1000 - price;
 
