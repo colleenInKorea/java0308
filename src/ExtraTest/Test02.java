@@ -1,11 +1,13 @@
 package ExtraTest;
 
+import java.util.Scanner;
+
 public class Test02 {
-    public int solution (char[] arr){
+    public int solution ( String str ){
         int count = 0;
         int sum = 0;
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i] == 'O'){
+        for(int i = 0; i < str.length(); i++){
+            if(str.charAt(i) == 'O'){
                 count++;
             }else {
                 count = 0;
@@ -16,8 +18,9 @@ public class Test02 {
     }
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         Test02 test = new Test02();
-        char[] arr ={'O', 'O', 'X', 'X', 'O', 'X','X', 'O', 'O', 'O'};
-        System.out.println(test.solution(arr));
+        String str = scan.next();
+        System.out.println(test.solution( str));
     }
 }
