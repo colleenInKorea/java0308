@@ -16,6 +16,6 @@ public class Test01 {
 
     public static void main(String[] args) {
         Test01 test = new Test01();
-        System.out.println(test.solution(380));
+        System.out.println(test.solution(1));
     }
 }
