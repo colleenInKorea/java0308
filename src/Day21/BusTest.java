@@ -1,6 +1,6 @@
 package Day21;
 
-public class Main {
+public class BusTest {
     public static void main(String[] args) {
         int number = (int) (Math.random() * (9999 - 1000 + 1)) + 1000;
         Bus bus1 = new Bus( number, 100, 30, 2);
