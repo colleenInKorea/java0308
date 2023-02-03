@@ -6,9 +6,6 @@ public abstract class PublicTransport {
     private int speed = 0;//속도
     private int maxPassenger;//최대 승객수
     private String state;//상태
-
-
-
     private int nowPassenger;//현재승객수
     private int fee ;//요금
 

@@ -8,7 +8,6 @@ public class Taxi extends PublicTransport{
     public int getTotalFee() {
         return totalFee;
     }
-
     private int totalFee;
 
     Taxi(int number, int amount){
